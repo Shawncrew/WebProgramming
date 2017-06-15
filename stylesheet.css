@@ -1,0 +1,145 @@
+#fullpage {
+	background-image: url("images/background.jpg");
+	height: 2100px;
+}
+
+#document {
+	margin-left: 15%;
+	margin-right: 15%;
+	
+}
+
+#header {
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#menu {
+	margin-bottom: 50px;
+}
+#menuitem {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 5px;
+	color: black;
+	background-color: lightblue;
+	font-size: 26px;
+
+}
+#content {
+	padding-top: 20px;
+}
+
+#footer {
+	height: 100px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+body {
+	font-family: sans-serif;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	
+}
+h2 {
+	color:white;
+	margin: 0px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+	font-size: 20px;
+}
+td {
+text-align:left;
+padding: 8px;
+}
+tr:nth-child(even){background-color: lightblue}
+tr:nth-child(odd){background-color: white}
+
+a {
+	color:white;
+}
+		
+.quote {
+	clear:both;
+	text-align:center;
+	color: white;
+	font-size: 14px;
+	padding-bottom: 50px;
+}
+.csdept {
+	float:right;
+	color:white;
+	background-color: lightblue;
+	margin-bottom: 100px;
+}
+
+.contact {
+	float:left;
+	clear:right;
+}
+
+.links{
+width: 50%;
+float:left;	
+clear:left;
+}
+.hobbies {
+	float:right;
+	color:white;
+	font-size:20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.imgcaption {
+	background-color:lightblue;
+	color:black;
+	font-size:20px;
+	text-align:center;
+	margin:0px;
+	padding: 0px;
+	
+}
+
+.name {
+	text-align:center;
+	color:white;
+	float:left;
+}
+.headshot {
+	width: 30%;
+	border: 5px black solid;
+	float:left;
+	margin-bottom: 20px;
+}
+
+.bio {
+	float: right;
+	width: 65%;
+	color: white;
+	font-size: 20px;
+}
+
+.resume {
+	clear:both;
+	margin-top: 10px;
+	color:white;
+	font-size: 20px;
+}
+
+
